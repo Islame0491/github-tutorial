@@ -28,6 +28,30 @@ After you click sign in you can make an account and when thats done your screen 
 * To do this we use whats called an SSH Key
 * SSH uses public-key cryptography to authenticate the remote computer and allow it to authenticate the user
 
+  [![Screen_Shot_2017-10-20_at_9.16.05_AM.png](https://s1.postimg.org/91ktzxoigf/Screen_Shot_2017-10-20_at_9.16.05_AM.png)](https://postimg.org/image/3mmbhi9d2j/)
+* If you make your way to your top left corner of cloud nine you should see a gear icon, Click on it
+ * Now if you look on your left after clicking the gear icon you should see this
+ [![Screen_Shot_2017-10-20_at_9.20.33_AM.png](https://s1.postimg.org/3rm8xq6nu7/Screen_Shot_2017-10-20_at_9.20.33_AM.png)](https://postimg.org/image/4r2caw9ezv/)
+* Click on SSH KEYS
+* WHen you click on that you should see two options, SSH to server or SSH to Github, Copy and paste the contents of the second box
+ [![Screen_Shot_2017-10-20_at_9.26.22_AM.png](https://s1.postimg.org/5zdgicxn9b/Screen_Shot_2017-10-20_at_9.26.22_AM.png)](https://postimg.org/image/254ozefpbv/)
+* Your SSh key will not be blurred i just blurred mine out for my protection ;)
+* After you copy the SSH key to from the second box we now have to  head over to github
+
+ [![Screen_Shot_2017-10-20_at_9.29.38_AM.png](https://s1.postimg.org/7ajxszx1xb/Screen_Shot_2017-10-20_at_9.29.38_AM.png)](https://postimg.org/image/9gjceropob/)
+* Again in the top right cornor you should see a scroll down menu with your avatar, If you click on it a dropdown should appear, Click Settings
+* When you have clicked on settings you should see a menu to your left
+
+[![Screen_Shot_2017-10-20_at_9.32.15_AM.png](https://s1.postimg.org/7quxwwbtvj/Screen_Shot_2017-10-20_at_9.32.15_AM.png)](https://postimg.org/image/9f4au3241n/)
+* Click on SSH and GPG Keys 
+* [![Screen_Shot_2017-10-20_at_9.34.41_AM.png](https://s1.postimg.org/34ytojp0gv/Screen_Shot_2017-10-20_at_9.34.41_AM.png)](https://postimg.org/image/7o0uriuhej/)
+* when you have clicked that in the top right hand cornor you should see a green button that says New SSH key, Click on it
+* You should be prompted with a box that looks like the one below
+[![Screen_Shot_2017-10-20_at_9.44.09_AM.png](https://s1.postimg.org/889i54hoen/Screen_Shot_2017-10-20_at_9.44.09_AM.png)](https://postimg.org/image/1tuw9izruz/)
+
+* WooHoo Your c9 and github are now linked together now we have to worko on how to setup a repo!
+
+
 ---
 ## Repository Setup
 
@@ -39,4 +63,4 @@ After you click sign in you can make an account and when thats done your screen 
 
 
 ---
-## Rolling Back Changes
+## Rolling Back Change
