@@ -54,13 +54,51 @@ After you click sign in you can make an account and when thats done your screen 
 
 ---
 ## Repository Setup
+So Now we are going to learn how to set up a repo which is short for repository.
+A repository is a place/ recepticale where data is stored.
+* To initiate a repository go into the command line on cloud 9 
+* Then make sure you make a new file and name it, we do so using  mkdir 
+* Then cd into the file you just made 
+* Then type in `git init`
 
+[![git_1.png](https://s1.postimg.org/20nf5z6khr/git_1.png)](https://postimg.org/image/3zjlwbc2t7/)
 
+* inside the folder make sure you` touch readme.md`
+* this creates a file that you can put text in
+* Then you want to `add --all`
+* Then `Git commit -m "insert message here"`
+*[![snip_3.png](https://s1.postimg.org/5a7lj5micv/snip_3.png)](https://postimg.org/image/3wl2f4bgbv/)
+* now we need somwthing to push to
+* Make your way to github and go to the plus icon, when the drop down appears choose new reopsitory
 
+[![git_3.png](https://s1.postimg.org/4kdbqfq0bj/git_3.png)](https://postimg.org/image/7bmdyic4d7/)
+[![git_4.png](https://s1.postimg.org/1xq5mlrn1b/git_4.png)](https://postimg.org/image/1xq5mlrn17/)
+* MAKE SURE WHATEVER YOU TYPE INTO THE REPOSITORY NAME MATCHES THE FOLDER YOU MADE ON C9!!!!!!!!!!!!!!!!!
+* Create new repository
+* [![git_6.png](https://s1.postimg.org/5610oqhldr/git_6.png)](https://postimg.org/image/4rukxv9aij/)
+1. make sure ssh is selected
+2. copy to clipboard, go into cloud nine , `git clone <link you just copied>`
+3. copy to clipboard, past cloud 9
+4. copy to clipboard paste cloud 9
+5. Congrats now lets talk about workflow and commands
 ---
+
 ## Workflow & Commands
-
-
+There are many commands that you can utilize in git here are some below
+[![sc1.png](https://s1.postimg.org/1yk57bambj/sc1.png)](https://postimg.org/image/6s903fvbej/)
+[![screen_shot_number_2.png](https://s1.postimg.org/1unwgsmyb3/screen_shot_number_2.png)](https://postimg.org/image/15umwrzfaj/)
+[![sc3.png](https://s1.postimg.org/43vayjvba7/sc3.png)](https://postimg.org/image/857acxzemz/)
 
 ---
 ## Rolling Back Change
+[![git_2.png](https://s1.postimg.org/9t2q2zp2xr/git_2.png)](https://postimg.org/image/4vu995bb4r/)
+* Lets go over what this diagram means
+*  This diagram basically tells you how to rollback almost any change for example if u accidently commit, you can roll that back by using `git reset --soft HEAD~1`
+---
+## Error Handling`
+Since we are all human we all make mistakes, which is why the rollbackchanges exist
+However im going to show you what to do if something goes wrong
+One of the most common problems is that you `git init` into the wrong folder
+to fix ths we just do `rm -rf .git`
+
+---
